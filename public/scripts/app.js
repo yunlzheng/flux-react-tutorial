@@ -1,4 +1,4 @@
 React.render(
-  <CommentBox url="comments.json" pollInterval={2000} />,
+  <CommentBox />,
   document.getElementById('content')
 );
