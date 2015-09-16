@@ -4,13 +4,24 @@
     <title>Hello React</title>
     <!-- Not present in the tutorial. Just for basic styling. -->
     <link rel="stylesheet" href="css/base.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/JSXTransformer.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="cdn/react.js"></script>
+    <script src="cdn/JSXTransformer.js"></script>
+    <script src="cdn/jquery.min.js"></script>
+    <script src="cdn/marked.min.js"></script>
+    <script src="cdn/microevent.js"></script>
+    <script src="cdn/invariant.js"></script>
+    <script src="cdn/dispatcher.js"></script>
   </head>
   <body>
     <div id="content"></div>
-    <script type="text/jsx;harmony=true" src="scripts/example.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/stores/CommentStore.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/dispatcher/AppDispatcher.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/actions/CommentActions.js"></script>
+    <!--components-->
+    <script type="text/jsx;harmony=true" src="scripts/components/Comment.react.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/components/CommentBox.react.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/components/CommentForm.react.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/components/CommentList.react.js"></script>
+    <script type="text/jsx;harmony=true" src="scripts/app.js"></script>
   </body>
 </html>
