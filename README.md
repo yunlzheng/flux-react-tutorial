@@ -1,8 +1,8 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 # React Tutorial
 
-Rewrite React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html) with Flux.
+
+Clone from [reactjs/react-tutorial](https://github.com/reactjs/react-tutorial) and Rewrite React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html) with Flux.
 
 
 ### Python
